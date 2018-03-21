@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Corsi-CodingLabs</title>
     <link rel="stylesheet" type="text/css" href="../assets/CSS/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/CSS/layout.css">
     <script src="../assets/javascript/jquery-3.2.1.slim.min.js"></script>
     <script src="../assets/javascript/popper.min.js"></script>
     <script src="../assets/javascript/bootstrap.min.js"></script>
@@ -35,47 +36,71 @@
         </ul>
     </div>
 </nav>
-<div>
-    <h1>I nostri corsi</h1>
-</div>
-<div>
-    <a href="web-dev.html">Web development</a>
-    <br>
-    <img src="../assets/images/web-dev.png" height="250" width="350">
-    <br>
-    <a href="game-dev.html">Game development</a>
-    <br>
-    <img src="../assets/images/game-dev.png" height="250" width="375">
-    <br>
-    <a href="arduino.html">Arduino Grand Prix</a>
-    <br>
-    <img src="../assets/images/arduino.png" height="250" width="350">
-</div>
-<div>
-    <h2>Archivio corsi ed eventi</h2>
-    <a href="#">Programmazione per il web 2017</a>
-    <br>
-    <a href="#">Game development 2017</a>
-</div>
-<div>
-    <!--INIZIO FOOTER       INIZIO FOOTER-->
-    <div>
-        _.--.__.-'""`-.__.--.__.-'""`-.__.--.__.-'""`-.__.--.__.-'""`-.__.--.__.-'""`-.__.--.__.-'""`-.__.--.__.-'""`-.__.--.__.-'""`-._
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1>I nostri corsi</h1>
+        </div>
     </div>
-    <p>
-        <a href="mailto:coderdojodisimaster@gmail.com?Subject=Ciao" target="_top">Scrivici</a>
-    </p>
-    <p>
-        Progetto possibile grazie a <a href="http://www.trentogiovani.it/">Piani giovani</a> della
-        <a href="http://www.provincia.tn.it/">Provincia Autonoma di Trento</a>
-    </p>
-    <p>
-        Ringraziamo inoltre il <a href="https://www.lsgalilei.org/">Liceo Galilei</a>,
-        l'<a href="http://www.tambosi.tn.it/it/">Istituto Tambosi</a>, <a
-            href="https://www.trentinoinnovation.eu/en/home/">HIT</a>
-        e l'<a href="http://www.unitn.it/">Università di Trento</a>
-    </p>
+    <div class="row mb-5">
+        <div class="col-4">
+            <a href="web-dev.html">
+                <div class="card">
+                    <img class="card-img-top" src="../assets/images/web-dev.png" alt="web-dev">
+                    <div class="card-body bg-dark">
+                        <p class="card-title text-light">Web development</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-4">
+            <a href="game-dev.html">
+                <div class="card">
+                    <img class="card-img-top" src="../assets/images/game-dev.png" alt="game-dev">
+                    <div class="card-body bg-dark">
+                        <p class="card-title text-light">Game development</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-4">
+            <a href="arduino.html">
+                <div class="card">
+                    <img class="card-img-top" src="../assets/images/arduino.png" alt="arduino">
+                    <div class="card-body bg-dark">
+                        <p class="card-title text-light">Arduino Grand-Prix</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="row mt-5 mb-3">
+        <div class="col-12">
+            <h2>Archivio corsi ed eventi</h2>
+            <a href="#">Programmazione per il web 2017</a>
+            <br>
+            <a href="#">Game development 2017</a>
+        </div>
+    </div>
 </div>
+<footer>
+    <div class="bg-dark p-2">
+
+        <p class="text-light text-center">
+            Progetto possibile grazie a <a href="http://www.trentogiovani.it/">Piani giovani</a> della
+            <a href="http://www.provincia.tn.it/">Provincia Autonoma di Trento</a>
+        </p>
+        <p class="text-light text-center">
+            Ringraziamo inoltre il <a href="https://www.lsgalilei.org/">Liceo Galilei</a>,
+            l'<a href="http://www.tambosi.tn.it/it/">Istituto Tambosi</a>, <a
+                href="https://www.trentinoinnovation.eu/en/home/">HIT</a>
+            e l'<a href="http://www.unitn.it/">Università di Trento</a>
+        </p>
+        <p class="text-light text-center">
+            <a href="mailto:coderdojodisimaster@gmail.com?Subject=Ciao" target="_top">Scrivici</a>
+        </p>
+    </div>
+</footer>
 
 
 </body>
